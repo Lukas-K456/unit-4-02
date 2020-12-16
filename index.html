@@ -4,23 +4,23 @@
     <title>
       hello world 
     </title>
-    <body style="background-color:lightgreen">
+    <body id="bdy" style="background-color:lightgreen">
     <h1>
       hello world 
     </h1>
 
 
-    <button onclick="getElementById('demo').innerHTML = Date()">What is the time?</button>
+    <button onclick="getElementById('demo').innerHTML = Date()">the time button</button>
 
 <p id="expert" onclick="myFunction()">im purple</p>
 
-<p id="demo" onclick="myFunction2()"> dont Click me.</p>
+<p id="demo" onclick="myFunction2()"> click the time button.</p>
 
-<p id="demo2" onclick="myFunction3()">DAD.</p>
+<p id="demo2" onclick="myFunction3()">click me to change the text.</p>
 
 <script>
 function myFunction3() {
-  document.getElementById("demo2").innerHTML="LUKAS"
+  document.getElementById("demo2").innerHTML="this text changed when you cicked"
 }
 </script>
 
@@ -32,7 +32,7 @@ function myFunction() {
 
 <script>
 function myFunction2() {
-  document.getElementById("demo").innerHTML = "i said dont click me!";
+  document.getElementById("demo").innerHTML = "i said click the time button!";
 }
 
 </script>
@@ -46,8 +46,22 @@ change the sunset
 </button>
 
 
+<button id="bgcolor" onclick="document.body.style.backgroundColor = 'red'">click here to make the bg red
 
 
-    </body>
+
+</button>
+
+
+<p> hello world </p>
+<input type="text"><br></input>
+
+
+
+<script>
+
+
+
+</body>
 
 </html>
